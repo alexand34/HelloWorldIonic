@@ -14,3 +14,21 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+
+ion-app{
+background: linear-gradient(right, yellow, red);
+}
+ion-scroll {
+    white-space: nowrap;
+    height: 250px;
+}
+.modal-wrapper{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.ios.modal-wrapper{
+    border-radius: 0px;
+}
