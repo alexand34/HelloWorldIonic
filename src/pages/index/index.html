@@ -13,8 +13,8 @@
   <ion-content style="width:100%;height:100%;">
     <ion-scroll scrollX="true" padding style="width:100vw; height:200px">
       <ion-row nowrap>
-        <div col-md-3 *ngFor="let book of books" (tap)="show(book)">
-          <img src="assets/imgs/books.png" />
+        <div col-md-2 *ngFor="let book of books" (tap)="show(book)">
+          <img src="{{book.imgName}}" width="140px"/>
           <p>{{book.label}}</p>
         </div>
       </ion-row>
